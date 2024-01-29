@@ -1,0 +1,59 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    z-index: 0;
+}
+.fotos{
+    border-radius: 7%;
+    margin: 10px;
+    border:solid 1px lightgray;
+    box-shadow: 5px 5px 5px 2px lightgray;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    display: block;
+    z-index: 10;
+}
+.fotos:hover{
+    background-color: pink;
+    transition-duration: 1s;
+    box-shadow: 7px 7px 7px 4px lightgray;
+    transform:scale(1.5);
+    z-index: 1000;
+}
+.foto{
+    border-top-left-radius: 7%;
+    border-top-right-radius: 7%;
+}
+.pagina{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    transition: trasform 0,2s;
+}
+.texto{
+    background-color: white;
+    border: solid lightgray;
+    display:none;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    margin: 50%;
+    border-radius: 7%;
+    z-index: 100;
+}
+button{
+    height:min-content;
+    margin: auto;
+    background-color: white;
+    border: solid lightgray;
+    border-radius: 7%;
+}
+button:hover{
+    color: white;
+    background-color: lightgray;
+    transition-duration: 0.2s;
+}
